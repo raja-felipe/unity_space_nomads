@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d0883dfc89152947a7791be0114a7e1, type: 3}
+  m_Name: ElectricGunData
+  m_EditorClassIdentifier: 
+  gunName: Electric Gun
+  damage: 35
+  fireRate: 1.2
+  clipSize: 8
+  startingClip: 8
+  totalAmmo: 100
+  reloadSpeed: 2
+  shotCount: 1
+  bulletPerShot: 1
+  hspread: 0
+  vspread: 0
+  reloadPerReload: 5
+  switchTooSpeed: 0.5
+  bullet: {fileID: 0}
+  muzzlePosition: {x: 0.25, y: -0.2, z: 0.8}
+  gunObject: {fileID: 6634122082362175618, guid: 4104a7312ce837443afc87bdc28f81a2, type: 3}
+  shootDuration: 0.1
+  bulletSpeed: 0
+  gunSprite: {fileID: 21300000, guid: 76866319380936245b87956025425f8b, type: 3}
+  gunDescription: Lightining that bounces to nearby targets
+  possibleUpgrades:
+  - {fileID: 11400000, guid: 0a77cb3d995f4314aa11176f66ad1acd, type: 2}
+  - {fileID: 11400000, guid: 9dbc89d0cc0eeb5428661ca5a9ea347e, type: 2}
+  electricityParticle: {fileID: 198464213672787702, guid: 0310b8628b5599c4295215fedba1a232, type: 3}
+  electricityExplosion: {fileID: 198866534812435342, guid: 9ce4142b18056ab4b813713b878856ca, type: 3}
+  chainRange: 4
+  chainCount: 10

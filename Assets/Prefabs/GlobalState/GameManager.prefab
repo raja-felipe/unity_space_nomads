@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6919205578495896925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3319903537720864647}
+  - component: {fileID: 4721718470349256774}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3319903537720864647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6919205578495896925}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 170.99132, y: -46.131737, z: -287.06213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4721718470349256774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6919205578495896925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321d43199dae1b34dbcc20135d7be179, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunDatas:
+  - {fileID: 11400000, guid: 2c52e819571434d4cb97e4f88d508fff, type: 2}
+  enemyDatas:
+  - {fileID: 11400000, guid: 4e7005e5a939c7149acfbd2cbd26d231, type: 2}
+  buildingDatas: []
+  gatePosition: {fileID: 0}
+  enginePosition: {fileID: 0}
+  playerPosition: {fileID: 0}
+  playerClip: 0
+  playerAmmo: 0
+  spawn1: {fileID: 0}
+  spawn2: {fileID: 0}
+  gooObject: {fileID: 0}
+  doSpawns: 1
+  EnemyCountTotal: 0
+  objectives: []
+  buildableLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  buildingHologramPrefabs:
+  - {fileID: 3272587634311768574, guid: d62f3d90ea1f188449e226d54a6486b0, type: 3}
+  - {fileID: 3272587634311768574, guid: a390b6eab5c1d6a4194e34fec045fbe2, type: 3}
+  - {fileID: 4412958363336287485, guid: de25ec017388adb41adff7679341df20, type: 3}
+  buildingHolograms: []
+  sceneTransition: {fileID: 0}
+  targetTime: 300
+  EnemyPoolList:
+  - type: {fileID: 11400000, guid: 4e7005e5a939c7149acfbd2cbd26d231, type: 2}
+    count: 5

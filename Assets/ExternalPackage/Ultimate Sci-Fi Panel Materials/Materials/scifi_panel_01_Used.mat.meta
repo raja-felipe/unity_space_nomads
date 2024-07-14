@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d219cf80121c03b43ad8676f3bfa5ed2
+labels:
+- Floor
+- Material
+- Panel
+- Roof
+- Sci-fi
+- Scifi
+- Wall
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

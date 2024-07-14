@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4656740b90453344fa01114e7d5f653a, type: 3}
+  m_Name: GrenadeLauncherData
+  m_EditorClassIdentifier: 
+  gunName: Grenader
+  damage: 10
+  fireRate: 1.6
+  clipSize: 6
+  startingClip: 6
+  totalAmmo: 100
+  reloadSpeed: 1.5
+  shotCount: 1
+  bulletPerShot: 1
+  hspread: 0
+  vspread: 0
+  reloadPerReload: 3
+  switchTooSpeed: 0.5
+  bullet: {fileID: 4247903710205038562, guid: 08a69f447fff9da47b88a7c831b7ae54, type: 3}
+  muzzlePosition: {x: 0, y: 0, z: 0}
+  gunObject: {fileID: 6166036617706555182, guid: 3740bcdfafb931b48b52f8fef9d31e4e, type: 3}
+  shootDuration: 0.1
+  bulletSpeed: 20
+  gunSprite: {fileID: 21300000, guid: 01d35cd0a80ba4d48be85167f01bcdc9, type: 3}
+  gunDescription: Shoots high damage area of effect projectiles
+  possibleUpgrades:
+  - {fileID: 11400000, guid: 678e00a2f06e9cb46b0ecd8cf4d95974, type: 2}
+  - {fileID: 11400000, guid: 290fcf3ab2746df4db76a315fae787fe, type: 2}
+  AOE: 3

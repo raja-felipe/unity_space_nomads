@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c7831a31ab31a4baa274b6d7213c5a, type: 3}
+  m_Name: HammerData
+  m_EditorClassIdentifier: 
+  gunName: Hammer Time
+  damage: 25
+  fireRate: 2
+  clipSize: 10
+  startingClip: 9
+  totalAmmo: 200
+  reloadSpeed: 0
+  shotCount: 1
+  bulletPerShot: 1
+  hspread: 0
+  vspread: 0
+  reloadPerReload: 10
+  switchTooSpeed: 0.5
+  bullet: {fileID: 0}
+  muzzlePosition: {x: 0, y: 0, z: 0}
+  gunObject: {fileID: 1263965628271470386, guid: ffd78f3a84eadee44b467569224686d4, type: 3}
+  shootDuration: 0.1
+  bulletSpeed: 0
+  gunSprite: {fileID: 21300000, guid: ffeb964ac68d5e04a84bf2f46a8adb1f, type: 3}
+  gunDescription: Melee with huge knockback and area of effect
+  possibleUpgrades:
+  - {fileID: 11400000, guid: 4c0059e1793b20946aaee83c1f522397, type: 2}
+  - {fileID: 11400000, guid: 0de22979a7576a24a89259032931e631, type: 2}
+  hitDimensions: {x: 0.7, y: 0.4, z: 0.7}
+  forwardOffset: 1.2
+  knockBackAmount: 10
+  knockBackDuration: 0.1
+  repairRange: 1
+  repairAmount: 50
+  repairEfficiency: 2
+  repairDelay: 0.5
+  canRepair: 0

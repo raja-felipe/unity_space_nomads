@@ -1,0 +1,31 @@
+# Fill out all team + team member details below by replacing the content of the
+# respective strings. This file is parsed by our autograding software, so ensure
+# that you only replace the placeholder text, not the keys (e.g. TeamName, etc.)
+
+# 1. Your team's GitHub repository URL for project 2 (*not* project 1)
+RepoURL: https://github.com/COMP30019/project-2-synergy
+
+# 2. Since you are working in the same team for project 2, you should copy the
+#    below keys/values *verbatim* from your project 1 metadata.yml -- do not
+#    change them unless you have permission from the teaching team.
+TeamName: synergy
+TeamMembers:
+  - Name: Zhuoran Wei
+    Email: zhuwei1@student.unimelb.edu.au
+  - Name: Wenhao Huang
+    Email: wenhhuang1@student.unimelb.edu.au
+  - Name: Jack Gardiner
+    Email: Jagardiner@student.unimelb.edu.au
+  - Name: Raja Felipe
+    Email: rfelipe@student.unimelb.edu.au
+
+# 3. The below keys must be filled out by the given milestone deadlines, and
+#    you must also re-submit on Gradescope to register these changes officially
+#    (like in project 1). Read the specification for details.
+
+# Milestone 1 entries
+GameTitle: SPACE NOMADS
+GameBlurb: You play as a human space nomad, who has recently returned to a now sea-creature controlled earth. After plundering precious cargo, the dolphins are out for your head, and your only way out is a worn down space ship. Your pilot just needs 5 minutes to power up the warp drive. Defend yourself, your pilot, and your ship for dear life with guns and buildings as enemies swarm you from anywhere and everywhere. Live after 5 minutes and home is but a couple of lightyears away.
+
+# Milestone 2 entries
+GameplayVideo: https://youtu.be/_k99eYgCgpI
